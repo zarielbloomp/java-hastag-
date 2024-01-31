@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio book</title>
+    <link rel="stylesheet" href="style/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<div class="container-aplicativo">
+    
+        <div class="container-conteudo">
+            <img src="../aula-1-intensivão-js/aula 1 (do zero)/images/dom-casmurro.jpeg" alt="Foto do livro de dom casmurro">
+            <div id="informaçoes-faixa">
+                <p id="capitulo">Capítulo 1</p>
+                <p class="p-machado-de-assis">Machado de Assis</p>
+            </div>
+            <audio id="audio-capitulo" src="../aula-1-intensivão-js/aula 1 (do zero)/books/dom-casmurro/1.mp3"></audio>
+            <div id="container-botoes">
+                <button id="anterior" class="bi bi-skip-backward-fill"></button>
+                <button id="play-pause" class="bi bi-play-circle-fill"></button>
+                <button id="proximo" class="bi bi-skip-forward-fill"></button>
+            </div>
+        </div>
+        <script src="scripts/script.js"></script>
+
+</div> 
+</body>
+</html>

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../imagens/paisagem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-aplicativo{
+    background-color: white;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    position: relative;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+    
+
+}
+
+.container-conteudo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#informaçoes-faixa{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+}
+
+#container-botoes{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+img{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.568);
+}
+
+p{
+    padding: 10px 0px 0px 0px;
+}
+
+.p-machado-de-assis{
+    padding-bottom: 10px;
+}
+
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+#anterior, #proximo {
+    font-size: 2rem;
+  }
+  
+  #play-pause {
+    font-size: 3rem;
+  }
